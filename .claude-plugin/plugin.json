@@ -1,0 +1,21 @@
+{
+  "name": "devmarketing-skills",
+  "version": "1.0.0",
+  "description": "35 AI agent skills for developer marketing — DevRel, developer tools, APIs, SDKs, and technical products",
+  "author": {
+    "name": "Jonathan Reimer"
+  },
+  "repository": "https://github.com/metaphorics/devmarketing-skills",
+  "license": "MIT",
+  "keywords": [
+    "developer-marketing",
+    "devrel",
+    "developer-experience",
+    "content-strategy",
+    "community-building",
+    "developer-tools",
+    "growth",
+    "seo",
+    "technical-content"
+  ]
+}

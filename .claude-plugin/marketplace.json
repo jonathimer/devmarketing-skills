@@ -1,0 +1,18 @@
+{
+  "name": "devmarketing-skills-dev",
+  "description": "Development marketplace for devmarketing-skills plugin",
+  "owner": {
+    "name": "Jonathan Reimer"
+  },
+  "plugins": [
+    {
+      "name": "devmarketing-skills",
+      "description": "35 AI agent skills for developer marketing — DevRel, developer tools, APIs, SDKs, and technical products",
+      "version": "1.0.0",
+      "source": "./",
+      "author": {
+        "name": "Jonathan Reimer"
+      }
+    }
+  ]
+}
