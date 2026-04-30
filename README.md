@@ -129,10 +129,17 @@ Then reference skills from `.agents/devmarketing-skills/skills/`.
 
 ### Option 4: Claude Code Plugin
 
+Install as a Claude Code plugin for automatic skill discovery:
+
 ```bash
-# Add the skills directory
-claude config add skills ~/path/to/devmarketing-skills/skills
+# Add the marketplace (from GitHub)
+claude plugin marketplace add metaphorics/devmarketing-skills
+
+# Install the plugin
+claude plugin install devmarketing-skills@devmarketing-skills-dev
 ```
+
+Once installed, skills are available in Claude Code sessions and activate based on task context.
 
 ### Option 5: Cursor / Windsurf
 
