@@ -1,6 +1,6 @@
 # Developer Marketing Skills
 
-AI agent skills for marketing to developers — inspired by [marketingskills](https://github.com/coreyhaines31/marketingskills). These skills give coding agents (Claude Code, Cursor, Windsurf, etc.) specialized knowledge for developer-focused marketing tasks.
+AI agent skills for marketing to developers - inspired by [marketingskills](https://github.com/coreyhaines31/marketingskills). These skills give coding agents (Claude Code, Cursor, Windsurf, etc.) specialized knowledge for developer-focused marketing tasks.
 
 **Contributions welcome!** Found a way to improve a skill or have a new one to add? [Open a PR](#contributing).
 
@@ -77,6 +77,7 @@ Skills are markdown files that give AI agents specialized knowledge and workflow
 | Skill | Description |
 |-------|-------------|
 | [`developer-listening`](skills/developer-listening/) | Monitoring what developers say about you, competitors, and problems they're solving. Track mentions across GitHub, Hacker News, Reddit, Stack Overflow, and Twitter. |
+| [`developer-source-packets`](skills/developer-source-packets/) | Capture traceable public conversation evidence before writing content, replies, comparisons, or launch plans |
 | [`competitor-tracking`](skills/competitor-tracking/) | Systematic competitor analysis for developer tools |
 | [`alternatives-pages`](skills/alternatives-pages/) | "[Competitor] alternative" and comparison pages for devtools |
 
@@ -262,4 +263,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ## License
 
-[MIT](LICENSE) — Use these however you want.
+[MIT](LICENSE) - Use these however you want.
