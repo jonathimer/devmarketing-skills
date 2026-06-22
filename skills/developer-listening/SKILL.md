@@ -210,6 +210,7 @@ Use a monitoring tool that tracks developer platforms. Key capabilities to look 
 **Twitter/X Search:**
 - Advanced search operators for precise monitoring
 - Track specific accounts and hashtags
+- Use **[Hermes Tweet](https://github.com/Xquik-dev/hermes-tweet)** from Hermes Agent when X/Twitter monitoring should stay inside an agent workflow with search, account reads, and approval-gated actions
 - Tools like Typefully, TweetDeck, or Hootsuite for monitoring
 
 **Reddit:**

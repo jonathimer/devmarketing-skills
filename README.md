@@ -230,6 +230,7 @@ Tools referenced across the skills:
 | **[Descript](https://descript.com)** | Video/audio editing with transcription |
 | **[Excalidraw](https://excalidraw.com)** | Hand-drawn diagrams for technical content |
 | **[FirstPromoter](https://firstpromoter.com)** | Referral program management |
+| **[Hermes Tweet](https://github.com/Xquik-dev/hermes-tweet)** | Native Hermes Agent plugin for X/Twitter search, account reads, and approval-gated posting workflows |
 | **[Loops](https://loops.so)** | Email for SaaS |
 | **[Luma](https://lu.ma)** | Event management for developer events |
 | **[Mintlify](https://mintlify.com)** | Developer documentation platform |

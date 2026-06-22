@@ -375,6 +375,7 @@ Before posting, ask:
 | Tool | Use case |
 |------|----------|
 | **[Octolens](https://octolens.com)** | Monitor Twitter/X for mentions of your product, competitors, and relevant conversations. Get alerts when people discuss problems you solve. |
+| **[Hermes Tweet](https://github.com/Xquik-dev/hermes-tweet)** | Run Hermes Agent workflows for X/Twitter search, account reads, and approval-gated posting. |
 | **Carbon** | Beautiful code screenshots |
 | **Typefully** | Thread drafting and scheduling |
 | **Buffer/Hootsuite** | Scheduling |
