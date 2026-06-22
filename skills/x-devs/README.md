@@ -64,6 +64,7 @@ Tweet 10: CTA + engagement ask
 ## Tools
 
 - **[Octolens](https://octolens.com)** — Monitor X for relevant conversations
+- **[Hermes Tweet](https://github.com/Xquik-dev/hermes-tweet)** — Native Hermes Agent plugin for X/Twitter research and approval-gated posting workflows
 - **Carbon** — Beautiful code screenshots
 - **Typefully** — Thread drafting and scheduling
 

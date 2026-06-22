@@ -14,6 +14,7 @@ Monitor developer conversations across GitHub, Hacker News, Reddit, Stack Overfl
 
 - **Social listening tools** — Monitor developer platforms (GitHub, HN, Reddit, SO, Twitter)
 - **Platform-specific search** — Native search on each platform for targeted monitoring
+- **[Hermes Tweet](https://github.com/Xquik-dev/hermes-tweet)** — Native Hermes Agent plugin for X/Twitter search, account reads, and approval-gated workflows
 
 ## Quick Start
 
