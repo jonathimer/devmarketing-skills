@@ -1,0 +1,16 @@
+{
+  "name": "devmarketing",
+  "description": "Developer marketing skills for AI agents.",
+  "owner": {
+    "name": "Jonathan Reimer",
+    "url": "https://github.com/jonathimer"
+  },
+  "plugins": [
+    {
+      "name": "devmarketing-skills",
+      "source": "./",
+      "description": "Agent skills for marketing to developers: DevRel content, community, distribution, developer experience, growth, and retention.",
+      "category": "marketing"
+    }
+  ]
+}
