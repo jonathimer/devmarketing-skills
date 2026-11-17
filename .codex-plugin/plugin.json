@@ -1,0 +1,23 @@
+{
+  "name": "devmarketing-skills",
+  "version": "1.0.0",
+  "description": "Agent skills for marketing to developers: DevRel content, community, distribution, developer experience, growth, and retention.",
+  "author": {
+    "name": "Jonathan Reimer",
+    "url": "https://github.com/jonathimer"
+  },
+  "homepage": "https://github.com/jonathimer/devmarketing-skills",
+  "repository": "https://github.com/jonathimer/devmarketing-skills",
+  "license": "MIT",
+  "keywords": ["developer-marketing", "devrel", "dev-tools", "skills"],
+  "interface": {
+    "displayName": "Developer Marketing Skills",
+    "shortDescription": "Skills for marketing to developers.",
+    "longDescription": "Skills for DevRel content, developer communities, Hacker News and Reddit, docs as marketing, developer SEO, onboarding, pricing, and retention.",
+    "developerName": "Jonathan Reimer",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://github.com/jonathimer/devmarketing-skills"
+  },
+  "skills": "./skills/"
+}

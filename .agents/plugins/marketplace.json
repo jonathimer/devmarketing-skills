@@ -1,0 +1,20 @@
+{
+  "name": "devmarketing",
+  "interface": {
+    "displayName": "Developer Marketing Skills"
+  },
+  "plugins": [
+    {
+      "name": "devmarketing-skills",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

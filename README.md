@@ -104,20 +104,37 @@ Skills are markdown files that give AI agents specialized knowledge and workflow
 
 ### Option 1: npx (Recommended)
 
-Install via [skills.sh](https://skills.sh/):
+Install into any agent that supports the [Agent Skills](https://agentskills.io/specification) standard, via [skills.sh](https://skills.sh/):
 
 ```bash
-npx add-skill jonathimer/devmarketing-skills
+npx skills add jonathimer/devmarketing-skills
 ```
 
-### Option 2: Clone and Copy
+### Option 2: Claude Code Plugin
+
+```bash
+claude plugin marketplace add jonathimer/devmarketing-skills
+claude plugin install devmarketing-skills@devmarketing
+```
+
+Plugin skills are namespaced, so invoke them as `/devmarketing-skills:developer-listening`.
+
+### Option 3: Codex Plugin
+
+```bash
+codex plugin marketplace add jonathimer/devmarketing-skills
+```
+
+Then run `/plugins` inside `codex`, select `devmarketing-skills`, and choose **Install plugin**.
+
+### Option 4: Clone and Copy
 
 ```bash
 git clone https://github.com/jonathimer/devmarketing-skills.git
 cp -r devmarketing-skills/skills/* .agents/skills/
 ```
 
-### Option 3: Git Submodule
+### Option 5: Git Submodule
 
 Add as a submodule for easy updates:
 
@@ -127,18 +144,11 @@ git submodule add https://github.com/jonathimer/devmarketing-skills.git .agents/
 
 Then reference skills from `.agents/devmarketing-skills/skills/`.
 
-### Option 4: Claude Code Plugin
-
-```bash
-# Add the skills directory
-claude config add skills ~/path/to/devmarketing-skills/skills
-```
-
-### Option 5: Cursor / Windsurf
+### Option 6: Cursor / Windsurf
 
 Add the skills directory to your project's `.cursorrules` or include skill files in your context.
 
-### Option 6: Fork and Customize
+### Option 7: Fork and Customize
 
 1. Fork this repository
 2. Customize skills for your specific developer audience
@@ -251,7 +261,7 @@ Tools referenced across the skills:
 Found a way to improve a skill? Have a new skill to suggest? PRs and issues welcome!
 
 1. Fork the repo
-2. Create a skill in `skills/[skill-name]/skill.md`
+2. Create a skill in `skills/[skill-name]/SKILL.md`
 3. Follow the skill structure above
 4. Include a README.md with usage examples
 5. Submit a PR
